@@ -1,0 +1,40 @@
+html, body {
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  color: #070707;
+  background-color: #F6F6F6;;
+}
+
+* {
+  font-family: gilroy_m, sans-serif;
+  box-sizing: border-box;
+  font-feature-settings: 'liga' off;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+@font-face {
+  font-family: gilroy_m;
+  src: url(../assets/fonts/Gilroy-Medium.woff);
+}
+
+@font-face {
+  font-family: raleway_m;
+  src: url(../assets/fonts/Gilroy-Bold.woff);
+  font-weight: 700;
+}

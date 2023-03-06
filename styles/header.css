@@ -1,0 +1,34 @@
+.header {
+
+}
+
+.navigation {
+  padding-top: 33px;
+  padding-bottom: 32px;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__link {
+  color: #828282;
+  font-size: 18px;
+  font-weight: 700;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.menu__link:hover  {
+  color: #070707;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+}
