@@ -2,9 +2,165 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/style.css">
   <title>My Portfolio</title>
 </head>
 <body>
-
+<header class="header">
+  <div class="container">
+    <nav class="navigation">
+      <ul class="menu">
+        <li class="menu__item">
+          <a class="menu__link" href="#home">Home</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#about-me">About me</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#skills">Skills</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contacts">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <hr>
+  </div>
+</header>
+<main class="main">
+  <div class="container">
+    <div class="info" id="home">
+      <div class="info-wrapper">
+        <h1 class="info__name">Daniil Metelia</h1>
+        <div class="info__desc">
+          <div class="career">
+            Student
+          </div>
+          <div class="age-town">
+            19 years old, Cherkassy
+          </div>
+        </div>
+        <img class="ukraine-flag" src="assets/ukraine.png" alt="ukraine">
+      </div>
+      <img class="personal-photo" src="assets/my-photo.png" alt="my-photo">
+    </div>
+  </div>
+  <div class="about-me" id="about-me">
+    <h2 class="about-me__title">
+      About me
+    </h2>
+    <div class="about-me__subtitle">
+      <p class="about-me__desc">
+        Hi, I'm Daniil – student from Minsk. I'm interested in frontend dev. and everything connected with it.
+      </p>
+      <p class="about-me__desc">
+        I'm studying at Software Engineer in Cherkassy State Technological University.
+      </p>
+      <p class="about-me__desc">
+        Ready to work in a team with wonderful people
+      </p>
+    </div>
+  </div>
+  <div class="skills" id="skills">
+    <div class="container">
+      <h2 class="skills__title">Skills</h2>
+      <div class="skills__list">
+        <div class="skills-card">
+          <div class="skills-card__icon">
+            <img src="assets/icons/js.png" alt="javascript">
+          </div>
+          <div class="skills-card__title">
+            JavaScript
+          </div>
+          <div class="skills-card__stars">
+            <img src="assets/star.png" alt="star">
+            <img src="assets/star.png" alt="star">
+            <img src="assets/star.png" alt="star">
+            <img src="assets/star.png" alt="star">
+            <img src="assets/starNull.png" alt="star">
+          </div>
+        </div>
+        <div class="skills-card">
+          <div class="skills-card__icon">
+            <img src="assets/icons/sass.png" alt="sass">
+          </div>
+          <div class="skills-card__title">
+            SASS/SCSS
+          </div>
+          <div class="skills-card__stars">
+            <img src="assets/star.png" alt="star">
+            <img src="assets/star.png" alt="star">
+            <img src="assets/star.png" alt="star">
+            <img src="assets/star.png" alt="star">
+            <img src="assets/starNull.png" alt="star">
+          </div>
+        </div>
+        <div class="skills-card">
+          <div class="skills-card__icon">
+            <img src="assets/icons/react.png" alt="react">
+          </div>
+          <div class="skills-card__title">
+            React
+          </div>
+          <div class="skills-card__stars">
+            <img src="assets/star.png" alt="star">
+            <img src="assets/star.png" alt="star">
+            <img src="assets/starNull.png" alt="star">
+            <img src="assets/starNull.png" alt="star">
+            <img src="assets/starNull.png" alt="star">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio" id="portfolio">
+    <h2 class="portfolio__title">Portfolio</h2>
+    <div class="portfolio__list">
+      <div class="portfolio-card">
+        <div class="portfolio-card__title">
+          <img class="portfolio__img" src="assets/generatePass.png" alt="generatePass">
+        </div>
+        <div class="portfolio-card__buttons">
+          <a class="button button-white" href="https://github.com/ww-side/generate-password" target="_blank">Code</a>
+          <a class="button button-black" href="https://ww-side.github.io/generate-password/" target="_blank">View</a>
+        </div>
+      </div>
+      <div class="portfolio-card">
+        <div class="portfolio-card__title">
+          <img class="portfolio__img" src="assets/myTodos.jpg" alt="myTodos">
+        </div>
+        <div class="portfolio-card__buttons">
+          <a class="button button-white" href="https://github.com/ww-side/my-todos" target="_blank">Code</a>
+          <a class="button button-black" href="https://my-todos-side.netlify.app/" target="_blank">View</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer class="footer">
+  <h2 class="footer__title" id="contacts">Contacts</h2>
+  <div class="footer__subtitle">
+    Want to know more or just chat? You are welcome!
+  </div>
+  <a class="footer__button" href="https://t.me/side_culture">Send message</a>
+  <div class="social-networks">
+    <a href="https://github.com/ww-side/" target="_blank">
+      <img class="social-networks__item" src="assets/icons/github.png" alt="github">
+    </a>
+    <a href="https://www.instagram.com/ww_side/" target="_blank">
+      <img class="social-networks__item" src="assets/icons/instagram.png" alt="instagram">
+    </a>
+    <a href="https://t.me/side_culture" target="_blank">
+      <img class="social-networks__item" src="assets/icons/telegram.png" alt="telegram">
+    </a>
+  </div>
+  <div class="footer__ps">
+    <p class="footer__ps-item">Like me on</p>
+    <p class="footer__ps-item">GitHub, Instagram, Telegram</p>
+  </div>
+</footer>
 </body>
 </html>
