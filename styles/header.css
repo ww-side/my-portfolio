@@ -117,6 +117,7 @@ hr {
     overflow-y: auto;
     padding-top: 120px;
     background-color: #eeeeee;
+    animation: burgerAnimation 0.5s ;
   }
 
   .menu {
@@ -127,4 +128,9 @@ hr {
   .menu__link {
     font-size: 70px;
   }
+}
+
+@keyframes burgerAnimation {
+  from {opacity: 0}
+  to {opacity: 1}
 }
