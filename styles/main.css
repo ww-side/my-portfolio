@@ -38,7 +38,6 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  margin-bottom: 91px;
   background-color: #eeeeee;
 }
 
@@ -71,7 +70,7 @@
 
 .skills__title {
   margin: 0 0 69px 0;
-  padding: 0;
+  padding: 91px 0 0 0;
   text-align: center;
   font-weight: 700;
   font-size: 34px;
@@ -90,10 +89,12 @@
 }
 
 .skills-card__title {
+  font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   margin-top: 24px;
   margin-bottom: 40px;
+  color: #828282;
 }
 
 .portfolio {
@@ -168,4 +169,100 @@
 .button-black:hover {
   background-color: #eeeeee;
   color: #070707;
+}
+
+.person-photo-mobile {
+  display: none;
+}
+
+@media (max-width: 1284px) {
+  .info-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 23px;
+  }
+
+  .info__name {
+    font-size: 67px;
+    line-height: 90px;
+  }
+
+  .info__desc {
+    font-size: 38px;
+    line-height: 52px;
+  }
+
+  .about-me__title {
+    font-size: 54px;
+    line-height: 62px;
+  }
+
+  .about-me__desc {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .personal-photo {
+    display: none;
+  }
+
+  .person-photo-mobile {
+    display: block;
+  }
+
+  .skills__title {
+    font-size: 54px;
+    line-height: 62px;
+  }
+
+  .skills-card__title {
+    font-size: 20px;
+  }
+
+  .button {
+    width: 150px;
+    font-size: 28px;
+  }
+
+  .portfolio__title {
+    font-size: 54px;
+    line-height: 62px;
+  }
+
+  .portfolio-card__buttons {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .portfolio__img {
+    width: 736px;
+    height: 390px;
+  }
+
+  .skills__list {
+    flex-direction: column;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 850px) {
+  .portfolio__img {
+    width: 636px;
+    height: 330px;
+  }
+}
+
+@media (max-width: 700px) {
+  .portfolio__img {
+    width: 536px;
+    height: 270px;
+  }
+}
+
+@media (max-width: 600px) {
+  .portfolio__img {
+    width: 436px;
+    height: 210px;
+  }
 }

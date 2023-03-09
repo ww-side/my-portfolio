@@ -5,8 +5,8 @@
 }
 
 .footer__title {
-  margin: 114px 0 20px 0;
-  padding: 0;
+  margin: 0 0 20px 0;
+  padding: 114px 0 0 0;
   font-weight: 700;
   font-size: 34px;
   line-height: 42px;
@@ -66,4 +66,35 @@
   line-height: 17px;
   color: #828282;
   text-align: center;
+}
+
+@media (max-width: 1284px) {
+  .footer__title {
+    font-size: 54px;
+    line-height: 82px;
+  }
+
+  .footer__subtitle {
+    width: 600px;
+    font-size: 38px;
+    line-height: 50px;
+  }
+
+  .footer__button {
+    font-size: 28px;
+    padding: 23px 50px;
+  }
+
+  .footer__ps-item {
+    font-size: 20px;
+    line-height: 27px;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer__subtitle {
+    width: 500px;
+    font-size: 38px;
+    line-height: 50px;
+  }
 }

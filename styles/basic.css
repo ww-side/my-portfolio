@@ -28,6 +28,27 @@ a {
   margin-left: 250px;
 }
 
+@media (max-width: 1000px) {
+  .container {
+    margin-right: 180px;
+    margin-left: 180px;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    margin-right: 29px;
+    margin-left: 29px;
+  }
+}
+
 @font-face {
   font-family: gilroy_m;
   src: url(../assets/fonts/Gilroy-Medium.woff);
